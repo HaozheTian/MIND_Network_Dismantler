@@ -1,13 +1,10 @@
 # Learning Network Dismantling without Handcrafted Inputs
 
 <div style="text-align:center;">
-  <img src="files/mind.png" alt="MIND Schematic" width="500"><br>
-  <div style="display:inline-block; text-align:justify; width:500px; padding-bottom:30px;">
+  <img src="files/fig_auc_bg.svg" alt="MIND Schematic" width="800"><br>
+  <div style="display:inline-block; text-align:justify; width:800px; padding-bottom:30px;">
     <sub>
-      <b>Network Dismantling</b> finds the sequence of node removals that most rapidly fragments a network into isolated components
-      (<b>a</b>) The <a href="https://dl.acm.org/doi/abs/10.1145/2856037">original social network</a>. 
-      (<b>b</b>) The dismantled network by MIND, down to a 10% relative Largest Connected Component (LCC) size. 
-      (<b>c</b>) Relative LCC size versus the fraction of nodes removed, comparing MIND with two state-of-the-art methods: <a href="https://www.nature.com/articles/s42256-020-0177-2">FINDER</a> and <a href="https://www.nature.com/articles/s41467-021-25485-8">GDM</a>.
+      <b>Network dismantling</b> seeks a sequence of node removals that fragments a network as rapidly as possible into disconnected components. Here, the dismantling of a <a href="https://dl.acm.org/doi/abs/10.1145/2856037">social network</a> is illustrated, where we sequentially remove nodes and record the size of the largest connected component (LCC) after each removal. The objective of network dismantling is to minimize the area under the LCC curve (AUC).
     </sub>
   </div>
 </div>
